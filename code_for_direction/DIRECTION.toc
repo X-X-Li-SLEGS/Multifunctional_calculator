@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}开发环境与安装说明}{3}
+\contentsline {subsection}{\numberline {1.1}开发与测试环境说明}{3}
+\contentsline {subsection}{\numberline {1.2}安装说明}{3}
+\contentsline {section}{\numberline {2}界面与功能说明}{6}
+\contentsline {subsection}{\numberline {2.1}主界面}{6}
+\contentsline {subsection}{\numberline {2.2}简易计算器}{7}
+\contentsline {subsection}{\numberline {2.3}微积分计算器}{8}
+\contentsline {subsection}{\numberline {2.4}代数计算器与拟合器}{9}
+\contentsline {section}{\numberline {3}算例演示}{10}
+\contentsline {subsection}{\numberline {3.1}微积分计算器的使用}{10}
+\contentsline {subsection}{\numberline {3.2}代数计算器的使用}{11}
+\contentsline {subsection}{\numberline {3.3}拟合器的使用}{13}
+\contentsline {section}{\numberline {4}结语}{16}

@@ -1,0 +1,165 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="433761913" file="C:\Users\李鑫祥\Desktop\Multifunctional_calculator_V10源代码\软件源代码\Multifunctional_calculator_V10.prj" location="C:\Users\李鑫祥\Desktop\Multifunctional_calculator_V10源代码\软件源代码" name="Multifunctional_calculator_V10" preferred-package-location="C:\Users\李鑫祥\Desktop\Multifunctional_calculator_V10源代码\软件源代码\Multifunctional_calculator_V10\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Multifunctional_calculator_V10</param.appname>
+    <param.icon>${PROJECT_ROOT}\Multifunctional_calculator_V10_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Multifunctional_calculator_V10_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Multifunctional_calculator_V10_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\Multifunctional_calculator_V10_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Multifunctional_calculator_V10_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>美猴王</param.authnamewatermark>
+    <param.email>xinxiangli@hotmail.com</param.email>
+    <param.company />
+    <param.summary>本软件基于Matlab R2015a平台开发并编译，主要有简易计算、微积分计算、代数计算、拟合等功能。</param.summary>
+    <param.description>如果您在使用过程中有任何建议或意见，或者对于源代码及算法有任何疑惑，欢迎联系作者交流讨论。</param.description>
+    <param.screenshot>${PROJECT_ROOT}\picture.jpg</param.screenshot>
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>\Multifunctional_calculator_V10\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Multifunctional_calculator_V10\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Multifunctional_calculator_V10\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Multifunctional_calculator_V10\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\TIPS_MAIN.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\Algebra.m</file>
+      <file>${PROJECT_ROOT}\Algebra_Matrix_A.m</file>
+      <file>${PROJECT_ROOT}\Algebra_Matrix_Addition.m</file>
+      <file>${PROJECT_ROOT}\Algebra_Matrix_B.m</file>
+      <file>${PROJECT_ROOT}\Algebra_Matrix_CV.m</file>
+      <file>${PROJECT_ROOT}\Algebra_Matrix_determinant.m</file>
+      <file>${PROJECT_ROOT}\Algebra_Matrix_Division.m</file>
+      <file>${PROJECT_ROOT}\Algebra_Matrix_Inverse.m</file>
+      <file>${PROJECT_ROOT}\Algebra_Matrix_Multiplication.m</file>
+      <file>${PROJECT_ROOT}\Algebra_Matrix_Subtraction.m</file>
+      <file>${PROJECT_ROOT}\Calclulus_d_dx.m</file>
+      <file>${PROJECT_ROOT}\Calclulus_d_dy.m</file>
+      <file>${PROJECT_ROOT}\Calclulus_d_dz.m</file>
+      <file>${PROJECT_ROOT}\Calclulus_D_fun.m</file>
+      <file>${PROJECT_ROOT}\Calclulus_D_position.m</file>
+      <file>${PROJECT_ROOT}\Calclulus_I_fun.m</file>
+      <file>${PROJECT_ROOT}\Calclulus_I_range.m</file>
+      <file>${PROJECT_ROOT}\Calclulus_S_dx.m</file>
+      <file>${PROJECT_ROOT}\Calclulus_S_dy.m</file>
+      <file>${PROJECT_ROOT}\Calclulus_S_dz.m</file>
+      <file>${PROJECT_ROOT}\Calculator.m</file>
+      <file>${PROJECT_ROOT}\CALCULATOR_MAIN.m</file>
+      <file>${PROJECT_ROOT}\Calculus_D.m</file>
+      <file>${PROJECT_ROOT}\Calculus_I.m</file>
+      <file>${PROJECT_ROOT}\Fiting_Fun1.m</file>
+      <file>${PROJECT_ROOT}\Fitting.m</file>
+      <file>${PROJECT_ROOT}\Fitting_Estimate.m</file>
+      <file>${PROJECT_ROOT}\Fitting_fun.m</file>
+      <file>${PROJECT_ROOT}\Fitting_Result.m</file>
+      <file>${PROJECT_ROOT}\Fitting_X.m</file>
+      <file>${PROJECT_ROOT}\Fitting_Y.m</file>
+      <file>${PROJECT_ROOT}\ln.m</file>
+      <file>${PROJECT_ROOT}\picture.jpg</file>
+      <file>${PROJECT_ROOT}\Pol.m</file>
+      <file>${PROJECT_ROOT}\syms.m</file>
+      <file>${PROJECT_ROOT}\tips_Calculus.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Multifunctional_calculator_V10\for_testing" name="readme.txt" optional="true">C:\Users\李鑫祥\Desktop\Multifunctional_calculator_V10源代码\软件源代码\Multifunctional_calculator_V10\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\Multifunctional_calculator_V10\for_testing" name="splash.png" optional="false">C:\Users\李鑫祥\Desktop\Multifunctional_calculator_V10源代码\软件源代码\Multifunctional_calculator_V10\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\Multifunctional_calculator_V10\for_testing" name="Multifunctional_calculator_V10.exe" optional="false">C:\Users\李鑫祥\Desktop\Multifunctional_calculator_V10源代码\软件源代码\Multifunctional_calculator_V10\for_testing\Multifunctional_calculator_V10.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\MATLAB Production Server\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
